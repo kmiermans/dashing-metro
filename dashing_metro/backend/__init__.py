@@ -1,2 +1,2 @@
-from .app import app
-from .module_variables import *
+from . import imports
+from . import module_variables as variables
