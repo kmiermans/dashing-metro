@@ -1,2 +1,2 @@
 from . import imports
-from . import module_variables as variables
+from . import module_data as variables

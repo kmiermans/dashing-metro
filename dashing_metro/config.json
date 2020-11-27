@@ -1,4 +1,18 @@
 {
-  "workingDirPath": "/Users/karsten/projects/dashing-metro/",
-  "dataSourcePath": "/Users/karsten/projects/dashing-metro/data/depts_small.csv"
+  "plotting": {
+    "mapbox_token": "pk.eyJ1Ijoia21pZXJtYW5zIiwiYSI6ImNrOTJxejByYzA2b3Ezbm1uZTBteXJ3cTkifQ.nMA_gLGy6GHThsEj2hKTQA"
+  },
+
+  "data_loc": {
+    "departures": "/Users/karsten/projects/dashing-metro/data/depts_small.csv",
+    "stations": "/Users/karsten/projects/dashing-metro/data/stations.csv"
+  },
+  "col_names": {
+    "dep_id": "dep_id",
+    "station_id": "station_id",
+    "line_label": "label",
+    "transport_type": "product"
+  },
+
+  "workingDirPath": "/Users/karsten/projects/dashing-metro/"
 }

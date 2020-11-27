@@ -4,10 +4,10 @@ from ..objects import graphs as dm_graphs
 from ..objects import inputs as dm_inputs
 
 
-graph = dm_graphs.histogram_delays_all
 
 checklist = dm_inputs.checklist
 
-main_layout = html.Div([graph,
+main_layout = html.Div([dm_graphs.histogram_delays_all,
+                        dm_graphs.scatter_mapbox,
                         checklist
                         ])
